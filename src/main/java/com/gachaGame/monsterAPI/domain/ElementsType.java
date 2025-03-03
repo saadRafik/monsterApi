@@ -2,8 +2,9 @@ package com.gachaGame.monsterAPI.domain;
 
 public enum ElementsType {
     FIRE("Fire"),
-    WATER("Water"),
-    WIND("Wind");
+    Earth("Earth"),
+    WATER("Water");
+    
 
     private final String element;
 

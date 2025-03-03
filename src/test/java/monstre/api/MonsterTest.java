@@ -21,7 +21,7 @@ public class MonsterTest {
         Monster monster = new Monster(ElementsType.WATER, 100, 50, 30, 20, 90);
         monster.addXp(20);
         assertEquals(10, monster.getXp());
-        MonsterAbilities abilities = monster.getMonsterAbilities1();
+        MonsterAbilities abilities = monster.getmonsterAbilities();
         assertEquals(40, abilities.getDamage()); 
         assertEquals(110, abilities.getRatio());    
         assertEquals(2, abilities.getCooldown());  
